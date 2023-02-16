@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/walpaper_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.contact.ContactFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="@string/schedule_1"
+        android:textColor="#A19D9D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="@string/schedule_2" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:stretchColumns="1"
+        >
+
+        <TableRow>
+            <TextView
+                android:padding="5dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:background="#EA2C16"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:text="SENIN"/>
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:text="DIAN KUSUMA"/>
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:text="ALFAN EDIYASA"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:padding="5dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:background="#EA2C16"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:text="SELASA"/>
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:text="REYNAND DELUN"/>
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:text="ALFAN EDIYASA"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:padding="5dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:background="#EA2C16"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:text="RABU"/>
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:text="CHRISTIAN AXEL"/>
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:text="REYNAND DELUN"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:padding="5dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:background="#EA2C16"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:text="KAMIS"/>
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:text="SAMUEL JOY"/>
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:text="CHRISTIAN AXEL"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:padding="5dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:background="#EA2C16"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:text="JUMAT"/>
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:text="DIAN KUSUMA"/>
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:text="SAMUEL JOY"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

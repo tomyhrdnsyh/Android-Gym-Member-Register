@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Baginda Gym</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Baginda Gym</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Login</string>
+
+    <string name="menu_home">Home</string>
+    <string name="text_1">cara baru untuk membangun gaya hidup sehat!</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="learn_more">LEARN MORE</string>
+    <string name="menu_about_us">About Us</string>
+    <string name="menu_testimonial">Testimonial</string>
+    <string name="menu_schedule">Schedules</string>
+    <string name="menu_contact">Contact</string>
+    <string name="testimony">Testimoni</string>
+    <string name="text_description">Ngegym di Baginda enak banget apalagi yang di sunt...</string>
+    <string name="datetime">Oct. 13, 2022, 12:56 a.m.</string>
+    <string name="text_description_1">Alatnya premium dan lengkap juga, jadi banyak pili...</string>
+    <string name="text_about_1">Baginda Gym berusaha memberikan kemudahan akses kesehatan dan kebugaran bagi semua orang dengan menawarkan akses gym premium ke semua lokasi Baginda Gym, kelas Unlimited setiap hari dengan biaya terjangkau. Sekarang, lebih mudah bagi siapa saja untuk lebih bugar bersama.</string>
+    <string name="text_about_2">Jika Anda memiliki pertanyaan mengenai Baginda Gym cabang Klaten, anda dapat segera menghubungi kami Terima Kasih.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="address">Jl. Sersan Sadikin, Badegan, Gergunung, Kec. Klaten Utara, Kabupaten Klaten, Jawa Tengah 57435</string>
+    <string name="email">bagindagym@gmail.com</string>
+    <string name="phone">0817-150-511</string>
+    <string name="schedule_1">our weekly GYM schedules</string>
+    <string name="schedule_2">Workout Timetable</string>
+</resources>
